@@ -2,7 +2,8 @@
 AI-Powered Smart Travel Planner The AI Trip Planner is a modern React application designed to revolutionize travel organization. By integrating Google’s Gemini AI, the app transforms user inputs—destination, duration, budget, and traveler type—into comprehensive, personalized itineraries in seconds.
 
  AI-Powered Trip Planner
-<img width="1890" height="891" alt="image" src="https://github.com/user-attachments/assets/acb58fd7-a2af-4227-bf5c-6ed74f9fb50e" />
+<img width="1896" height="898" alt="Screenshot 2025-11-22 072128" src="https://github.com/user-attachments/assets/320a7e5d-15c3-44ae-b762-9a0cdd15da56" />
+
 
 AI Trip Planner is a modern, full-stack capable web application designed to revolutionize the way users plan their travels. By leveraging the power of Google Gemini AI, it generates personalized, day-by-day itineraries based on user preferences, complete with hotel recommendations and curated activities.
 Unlike standard text-based planners, this application integrates the Pexels API to dynamically fetch stunning, high-quality images for every destination, creating a visually immersive experience.
@@ -69,12 +70,12 @@ Open http://localhost:5173 with your browser to see the result.
 📸 Screenshots
 (Optional: Add screenshots of your app here to make the README more attractive)
 Landing Page	Trip Generation
-<img width="1896" height="897" alt="image" src="https://github.com/user-attachments/assets/d2849ee8-5263-4c0c-92e0-11e08d3f9fb1" />
-<img width="1837" height="836" alt="image" src="https://github.com/user-attachments/assets/7275c10d-458c-4a3a-a1d8-5426a40fe36d" />
-<img width="1877" height="823" alt="image" src="https://github.com/user-attachments/assets/3d119c94-2320-494a-a25e-f90497386de1" />
-<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/588daab2-d288-47fa-bd25-bc38d83cb617" />
+<img width="1896" height="898" alt="Screenshot 2025-11-22 072128" src="https://github.com/user-attachments/assets/ebdc832e-ac75-4663-b4a6-98d312b2ce74" />
+<img width="1837" height="836" alt="Screenshot 2025-11-22 072208" src="https://github.com/user-attachments/assets/6115f40c-5a91-4b76-9662-66cd1e09e5f0" />
+<img width="1878" height="824" alt="Screenshot 2025-11-22 072243" src="https://github.com/user-attachments/assets/7d78836f-aaaa-422b-a59b-515c9d7a07db" />
+<img width="1890" height="891" alt="Screenshot 2025-11-22 072528" src="https://github.com/user-attachments/assets/30812b8d-3e83-42e1-b0d5-ab55a59661fd" />
 Itinerary View	My Trips
-<img width="1821" height="831" alt="Screenshot 2025-11-22 071732" src="https://github.com/user-attachments/assets/800a50d2-13f3-47f0-a457-8136b7aaef43" />
+<img width="1821" height="831" alt="Screenshot 2025-11-22 071732" src="https://github.com/user-attachments/assets/e4c0b820-7319-42e3-a276-a2402f6aca20" />
 🤝 Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
 Fork the Project
