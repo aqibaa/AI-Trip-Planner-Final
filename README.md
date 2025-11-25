@@ -8,7 +8,7 @@ AI-Powered Smart Travel Planner The AI Trip Planner is a modern React applicatio
 AI Trip Planner is a modern, full-stack capable web application designed to revolutionize the way users plan their travels. By leveraging the power of Google Gemini AI, it generates personalized, day-by-day itineraries based on user preferences, complete with hotel recommendations and curated activities.
 Unlike standard text-based planners, this application integrates the Pexels API to dynamically fetch stunning, high-quality images for every destination, creating a visually immersive experience.
 🚀 Live Demo
-
+https://ai-trip-planner-final.vercel.app
 ✨ Key Features
 🤖 AI-Generated Itineraries: Uses Google Gemini 1.5 Flash to create detailed, day-by-day travel plans including best times to visit, ticket pricing, and travel time.
 📍 Smart Location Search: Integrated Mapbox Geocoding for precise and easy destination selection.
