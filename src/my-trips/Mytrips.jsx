@@ -14,7 +14,6 @@ function MyTrips() {
   const [userTrips, setUserTrips] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  // GetUserTrips ko useEffect ke andar define karein ya useCallback istemal karein
   useEffect(() => {
     const GetUserTrips = async () => {
       if (!user) {
@@ -42,8 +41,6 @@ function MyTrips() {
     GetUserTrips();
   }, [user, navigate]);
 
-
-  // --- NAYE FUNCTIONS: DELETE AUR FAVORITE KI LOGIC ---
   const deleteTrip = async (tripId) => {
     if (!window.confirm("Are you sure you want to delete this trip? This action cannot be undone.")) {
       return;
