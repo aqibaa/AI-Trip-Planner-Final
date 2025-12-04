@@ -24,7 +24,7 @@ function Favorites() {
         setIsLoading(true);
         const q = query(collection(db, "AITrips"),
             where("userEmail", "==", user.email),
-            where("isFavorite", "==", true) // Sirf favorite trips ke liye query
+            where("isFavorite", "==", true) 
         );
         const querySnapshot = await getDocs(q);
         const trips = [];
@@ -49,7 +49,6 @@ function Favorites() {
         try {
             const tripRef = doc(db, "AITrips", tripId);
             await updateDoc(tripRef, { isFavorite: newStatus });
-            // Favorites page par, unfavorite karne ka matlab hai ke trip ko list se hata dein
             if (!newStatus) {
                 setFavoriteTrips(prev => prev.filter(trip => trip.id !== tripId));
             }
