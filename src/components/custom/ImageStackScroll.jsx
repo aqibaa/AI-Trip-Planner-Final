@@ -25,11 +25,9 @@ export function ImageStackScroll() {
     useLayoutEffect(() => {
         const ctx = gsap.context(() => {
 
-            // --- YEH SABSE AHEM HISSA HAI: matchMedia ---
             ScrollTrigger.matchMedia({
             
                 // -- DESKTOP ANIMATION --
-                // Yeh animation sirf tab chalega jab screen ki width 768px ya usse zyada ho
                 "(min-width: 765px)": function() {
                     gsap.set(imageRefs.current, {
                         xPercent: -50,
@@ -66,8 +64,7 @@ export function ImageStackScroll() {
                 },
 
                 // -- MOBILE VIEW --
-                // Jab screen ki width 767px ya usse kam ho, to yeh function chalega.
-                // Hum ise khali chhor rahe hain, iska matlab hai ke mobile par koi GSAP animation nahin chalegi.
+               
                 "(max-width: 650px)": function() {
                     // No GSAP animations on mobile.
                     // The JSX will just render statically.
@@ -78,8 +75,6 @@ export function ImageStackScroll() {
   
         return () => ctx.revert();
     }, []);
-
-    // --- AAPKA ORIGINAL JSX BILKUL WAISA HI HAI ---
     return (
         <div ref={componentRef}>
             <div ref={stickyRef} className="relative h-screen w-full flex items-center">
