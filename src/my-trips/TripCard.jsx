@@ -13,7 +13,6 @@ import {
   const locationName = trip.userSelection?.location || 'Unknown Destination';
   const cityImageUrl = trip.userSelection?.locationImageUrl || 'https://via.placeholder.com/400x300?text=Trip+Image';
 
-  // onClick event ko bubbling se rokne ke liye
   const handleDropdownClick = (e) => {
     e.stopPropagation();
   };
